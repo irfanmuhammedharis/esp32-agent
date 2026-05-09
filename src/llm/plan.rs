@@ -56,14 +56,4 @@ pub struct Project {
     pub interval_ms: u32,
 }
 
-impl Project {
-    pub fn new() -> Self {
-        Self {
-            wiring_instructions: String::new(),
-            description: String::new(),
-            setup: Vec::new(),
-            loop_body: Vec::new(),
-            interval_ms: 1000,
-        }
-    }
-}
+

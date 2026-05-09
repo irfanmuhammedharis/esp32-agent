@@ -1,6 +1,6 @@
 //! Telegram Bot HTTP API client — blocking, synchronous.
 
-use crate::telegram::types::{GetUpdatesResponse, Message, Update};
+use crate::telegram::types::GetUpdatesResponse;
 use embedded_svc::http::client::Client as HttpClient;
 use embedded_svc::http::Method;
 use esp_idf_svc::http::client::{Configuration as HttpConfig, EspHttpConnection};
@@ -33,7 +33,7 @@ impl TelegramApi {
             })?,
         );
 
-        let mut request = client.request(Method::Get, &url, &[])?;
+        let request = client.request(Method::Get, &url, &[])?;
         let mut response = request.submit()?;
 
         let status = response.status();

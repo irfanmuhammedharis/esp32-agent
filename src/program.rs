@@ -120,7 +120,7 @@ impl Vm {
                 info!("[VM] SetVar {} = {}", var.as_str(), value);
                 self.set_var(var.clone(), *value);
             }
-            Instruction::Label { name } => {
+            Instruction::Label { name: _ } => {
                 // No-op
             }
             Instruction::Jump { label } => {

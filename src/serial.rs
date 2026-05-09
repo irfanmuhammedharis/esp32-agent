@@ -9,12 +9,13 @@ use crate::gpio::registry;
 use crate::llm::deepseek::DeepSeekClient;
 use crate::llm::plan::Project;
 use crate::llm::LlmClient;
-use crate::rtos::{Command, PLAN_QUEUE_DEPTH};
+use crate::rtos::Command;
 use esp_idf_hal::uart::UartDriver;
 use esp_idf_svc::nvs::EspDefaultNvsPartition;
 use heapless::String;
 use log::{error, info};
 use std::sync::mpsc::SyncSender;
+use std::time::{Duration, Instant};
 
 /// Entry point for the serial task.
 pub fn run(
@@ -25,17 +26,14 @@ pub fn run(
 ) {
     info!("[SERIAL] Task started.");
 
+    let mut requests: u8 = 0;
+    let mut window_start = Instant::now();
+
     let llm = match DeepSeekClient::new(deepseek_key.as_str()) {
         Ok(c) => c,
         Err(e) => {
             error!("[SERIAL] Failed to create LLM client: {:?}", e);
-            match DeepSeekClient::new("") {
-                Ok(c) => c,
-                Err(_) => {
-                    error!("[SERIAL] Cannot create placeholder LLM client");
-                    return;
-                }
-            }
+            return;
         }
     };
 
@@ -58,7 +56,7 @@ pub fn run(
                         let line = core::str::from_utf8(&buf[..cursor])
                             .unwrap_or("")
                             .trim();
-                        handle_line(line, &tx, &uart, &llm, &nvs);
+                        handle_line(line, &tx, &uart, &llm, &nvs, &mut requests, &mut window_start);
                         cursor = 0;
                         print_prompt(&uart);
                     }
@@ -87,6 +85,8 @@ fn handle_line(
     uart: &UartDriver,
     llm: &DeepSeekClient,
     nvs: &EspDefaultNvsPartition,
+    requests: &mut u8,
+    window_start: &mut Instant,
 ) {
     let cmd = parse(line);
     match cmd {
@@ -112,6 +112,17 @@ fn handle_line(
             }
         }
         Command::LlmTask { text } => {
+            // Token-bucket rate limiter (shared budget with Telegram)
+            if window_start.elapsed() >= Duration::from_secs(60) {
+                *requests = 0;
+                *window_start = Instant::now();
+            }
+            if *requests >= 10 {
+                let _ = uart.write(b"Rate limit reached. Please wait.\r\n");
+                return;
+            }
+            *requests += 1;
+
             let mut msg = String::<64>::new();
             let _ = core::fmt::write(&mut msg, format_args!("[LLM] '{}': ", text));
             let _ = uart.write(msg.as_bytes());

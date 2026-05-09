@@ -28,7 +28,7 @@ fn main() {
 
     info!("=================================================");
     info!("ESP32-agent v1.0 — AI-Driven GPIO Controller");
-    info!("LLM has ABSOLUTE CONTROL — projects ");
+    info!("LLM has ABSOLUTE CONTROL — projects via DeepSeek");
     info!("=================================================");
 
     let mut peripherals = Peripherals::take().unwrap();
