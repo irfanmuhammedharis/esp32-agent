@@ -1,0 +1,36 @@
+# Rust
+/target/
+**/target/
+Cargo.lock
+*.rlib
+*.rmeta
+
+# ESP-IDF / PlatformIO build artifacts
+.pio/build/
+build/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.map
+
+# IDF specific
+esp-idf/
+managed_components/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Custom target dir (if used)
+/esp32-claw-target/
+
+# Flash tools
+*.log
