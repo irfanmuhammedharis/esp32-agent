@@ -1,0 +1,4390 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "build.rs",
+      "file_type": "code",
+      "source_file": "build.rs",
+      "source_location": "L1",
+      "id": "build_rs",
+      "community": 21,
+      "norm_label": "build.rs"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "build.rs",
+      "source_location": "L1",
+      "id": "esp32_agent_build_main",
+      "community": 21,
+      "norm_label": "main()"
+    },
+    {
+      "label": "wifi.rs",
+      "file_type": "code",
+      "source_file": "src/wifi.rs",
+      "source_location": "L1",
+      "id": "src_wifi_rs",
+      "community": 2,
+      "norm_label": "wifi.rs"
+    },
+    {
+      "label": "connect()",
+      "file_type": "code",
+      "source_file": "src/wifi.rs",
+      "source_location": "L14",
+      "id": "src_wifi_connect",
+      "community": 2,
+      "norm_label": "connect()"
+    },
+    {
+      "label": "serial.rs",
+      "file_type": "code",
+      "source_file": "src/serial.rs",
+      "source_location": "L1",
+      "id": "src_serial_rs",
+      "community": 6,
+      "norm_label": "serial.rs"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "src/serial.rs",
+      "source_location": "L20",
+      "id": "src_serial_run",
+      "community": 6,
+      "norm_label": "run()"
+    },
+    {
+      "label": "print_prompt()",
+      "file_type": "code",
+      "source_file": "src/serial.rs",
+      "source_location": "L80",
+      "id": "src_serial_print_prompt",
+      "community": 6,
+      "norm_label": "print_prompt()"
+    },
+    {
+      "label": "handle_line()",
+      "file_type": "code",
+      "source_file": "src/serial.rs",
+      "source_location": "L84",
+      "id": "src_serial_handle_line",
+      "community": 6,
+      "norm_label": "handle_line()"
+    },
+    {
+      "label": "parse()",
+      "file_type": "code",
+      "source_file": "src/serial.rs",
+      "source_location": "L155",
+      "id": "src_serial_parse",
+      "community": 6,
+      "norm_label": "parse()"
+    },
+    {
+      "label": "main.rs",
+      "file_type": "code",
+      "source_file": "src/main.rs",
+      "source_location": "L1",
+      "id": "src_main_rs",
+      "community": 2,
+      "norm_label": "main.rs"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src/main.rs",
+      "source_location": "L25",
+      "id": "src_main_main",
+      "community": 2,
+      "norm_label": "main()"
+    },
+    {
+      "label": "program.rs",
+      "file_type": "code",
+      "source_file": "src/program.rs",
+      "source_location": "L1",
+      "id": "src_program_rs",
+      "community": 7,
+      "norm_label": "program.rs"
+    },
+    {
+      "label": "Vm",
+      "file_type": "code",
+      "source_file": "src/program.rs",
+      "source_location": "L14",
+      "id": "src_program_vm",
+      "community": 7,
+      "norm_label": "vm"
+    },
+    {
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "src/program.rs",
+      "source_location": "L22",
+      "id": "src_program_vm_load",
+      "community": 7,
+      "norm_label": ".load()"
+    },
+    {
+      "label": ".get_var()",
+      "file_type": "code",
+      "source_file": "src/program.rs",
+      "source_location": "L36",
+      "id": "src_program_vm_get_var",
+      "community": 7,
+      "norm_label": ".get_var()"
+    },
+    {
+      "label": ".set_var()",
+      "file_type": "code",
+      "source_file": "src/program.rs",
+      "source_location": "L44",
+      "id": "src_program_vm_set_var",
+      "community": 7,
+      "norm_label": ".set_var()"
+    },
+    {
+      "label": ".find_label()",
+      "file_type": "code",
+      "source_file": "src/program.rs",
+      "source_location": "L52",
+      "id": "src_program_vm_find_label",
+      "community": 7,
+      "norm_label": ".find_label()"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "src/program.rs",
+      "source_location": "L61",
+      "id": "src_program_vm_run",
+      "community": 7,
+      "norm_label": ".run()"
+    },
+    {
+      "label": ".step()",
+      "file_type": "code",
+      "source_file": "src/program.rs",
+      "source_location": "L67",
+      "id": "src_program_vm_step",
+      "community": 7,
+      "norm_label": ".step()"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "src/program.rs",
+      "source_location": "L171",
+      "id": "src_program_run",
+      "community": 7,
+      "norm_label": "run()"
+    },
+    {
+      "label": "rtos.rs",
+      "file_type": "code",
+      "source_file": "src/rtos.rs",
+      "source_location": "L1",
+      "id": "src_rtos_rs",
+      "community": 22,
+      "norm_label": "rtos.rs"
+    },
+    {
+      "label": "Command",
+      "file_type": "code",
+      "source_file": "src/rtos.rs",
+      "source_location": "L19",
+      "id": "src_rtos_command",
+      "community": 22,
+      "norm_label": "command"
+    },
+    {
+      "label": "config.rs",
+      "file_type": "code",
+      "source_file": "src/config.rs",
+      "source_location": "L1",
+      "id": "src_config_rs",
+      "community": 6,
+      "norm_label": "config.rs"
+    },
+    {
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "src/config.rs",
+      "source_location": "L10",
+      "id": "src_config_config",
+      "community": 6,
+      "norm_label": "config"
+    },
+    {
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "src/config.rs",
+      "source_location": "L21",
+      "id": "src_config_config_load",
+      "community": 6,
+      "norm_label": ".load()"
+    },
+    {
+      "label": ".set()",
+      "file_type": "code",
+      "source_file": "src/config.rs",
+      "source_location": "L37",
+      "id": "src_config_config_set",
+      "community": 6,
+      "norm_label": ".set()"
+    },
+    {
+      "label": "nvs_str()",
+      "file_type": "code",
+      "source_file": "src/config.rs",
+      "source_location": "L53",
+      "id": "src_config_nvs_str",
+      "community": 6,
+      "norm_label": "nvs_str()"
+    },
+    {
+      "label": "nvs_i64()",
+      "file_type": "code",
+      "source_file": "src/config.rs",
+      "source_location": "L62",
+      "id": "src_config_nvs_i64",
+      "community": 6,
+      "norm_label": "nvs_i64()"
+    },
+    {
+      "label": "mod.rs",
+      "file_type": "code",
+      "source_file": "src/telegram/mod.rs",
+      "source_location": "L1",
+      "id": "src_telegram_mod_rs",
+      "community": 20,
+      "norm_label": "mod.rs"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "src/telegram/mod.rs",
+      "source_location": "L21",
+      "id": "telegram_mod_run",
+      "community": 20,
+      "norm_label": "run()"
+    },
+    {
+      "label": "requests_consume()",
+      "file_type": "code",
+      "source_file": "src/telegram/mod.rs",
+      "source_location": "L99",
+      "id": "telegram_mod_requests_consume",
+      "community": 20,
+      "norm_label": "requests_consume()"
+    },
+    {
+      "label": "api.rs",
+      "file_type": "code",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L1",
+      "id": "src_telegram_api_rs",
+      "community": 16,
+      "norm_label": "api.rs"
+    },
+    {
+      "label": "TelegramApi",
+      "file_type": "code",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L12",
+      "id": "telegram_api_telegramapi",
+      "community": 16,
+      "norm_label": "telegramapi"
+    },
+    {
+      "label": ".new()",
+      "file_type": "code",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L18",
+      "id": "telegram_api_telegramapi_new",
+      "community": 16,
+      "norm_label": ".new()"
+    },
+    {
+      "label": ".get_updates()",
+      "file_type": "code",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L25",
+      "id": "telegram_api_telegramapi_get_updates",
+      "community": 16,
+      "norm_label": ".get_updates()"
+    },
+    {
+      "label": ".send_message()",
+      "file_type": "code",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L81",
+      "id": "telegram_api_telegramapi_send_message",
+      "community": 16,
+      "norm_label": ".send_message()"
+    },
+    {
+      "label": "types.rs",
+      "file_type": "code",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L1",
+      "id": "src_telegram_types_rs",
+      "community": 13,
+      "norm_label": "types.rs"
+    },
+    {
+      "label": "Update",
+      "file_type": "code",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L7",
+      "id": "telegram_types_update",
+      "community": 13,
+      "norm_label": "update"
+    },
+    {
+      "label": "Message",
+      "file_type": "code",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L14",
+      "id": "telegram_types_message",
+      "community": 13,
+      "norm_label": "message"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L23",
+      "id": "telegram_types_user",
+      "community": 13,
+      "norm_label": "user"
+    },
+    {
+      "label": "Chat",
+      "file_type": "code",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L30",
+      "id": "telegram_types_chat",
+      "community": 13,
+      "norm_label": "chat"
+    },
+    {
+      "label": "GetUpdatesResponse",
+      "file_type": "code",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L36",
+      "id": "telegram_types_getupdatesresponse",
+      "community": 13,
+      "norm_label": "getupdatesresponse"
+    },
+    {
+      "label": "ApiResponse",
+      "file_type": "code",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L43",
+      "id": "telegram_types_apiresponse",
+      "community": 13,
+      "norm_label": "apiresponse"
+    },
+    {
+      "label": "mod.rs",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L1",
+      "id": "src_gpio_mod_rs",
+      "community": 2,
+      "norm_label": "mod.rs"
+    },
+    {
+      "label": "GpioRegistry",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L17",
+      "id": "gpio_mod_gpioregistry",
+      "community": 2,
+      "norm_label": "gpioregistry"
+    },
+    {
+      "label": ".from_peripherals()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L62",
+      "id": "gpio_mod_gpioregistry_from_peripherals",
+      "community": 2,
+      "norm_label": ".from_peripherals()"
+    },
+    {
+      "label": ".claim_output()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L188",
+      "id": "gpio_mod_gpioregistry_claim_output",
+      "community": 2,
+      "norm_label": ".claim_output()"
+    },
+    {
+      "label": ".claim_input()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L219",
+      "id": "gpio_mod_gpioregistry_claim_input",
+      "community": 2,
+      "norm_label": ".claim_input()"
+    },
+    {
+      "label": ".ensure_input_34()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L253",
+      "id": "gpio_mod_gpioregistry_ensure_input_34",
+      "community": 2,
+      "norm_label": ".ensure_input_34()"
+    },
+    {
+      "label": ".ensure_input_35()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L260",
+      "id": "gpio_mod_gpioregistry_ensure_input_35",
+      "community": 2,
+      "norm_label": ".ensure_input_35()"
+    },
+    {
+      "label": ".ensure_input_36()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L267",
+      "id": "gpio_mod_gpioregistry_ensure_input_36",
+      "community": 2,
+      "norm_label": ".ensure_input_36()"
+    },
+    {
+      "label": ".ensure_input_39()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L274",
+      "id": "gpio_mod_gpioregistry_ensure_input_39",
+      "community": 2,
+      "norm_label": ".ensure_input_39()"
+    },
+    {
+      "label": ".read_adc()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L283",
+      "id": "gpio_mod_gpioregistry_read_adc",
+      "community": 2,
+      "norm_label": ".read_adc()"
+    },
+    {
+      "label": ".config_pwm()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L312",
+      "id": "gpio_mod_gpioregistry_config_pwm",
+      "community": 2,
+      "norm_label": ".config_pwm()"
+    },
+    {
+      "label": ".set_pwm()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L373",
+      "id": "gpio_mod_gpioregistry_set_pwm",
+      "community": 2,
+      "norm_label": ".set_pwm()"
+    },
+    {
+      "label": ".release_pwm()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L408",
+      "id": "gpio_mod_gpioregistry_release_pwm",
+      "community": 2,
+      "norm_label": ".release_pwm()"
+    },
+    {
+      "label": ".release_pin()",
+      "file_type": "code",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L424",
+      "id": "gpio_mod_gpioregistry_release_pin",
+      "community": 2,
+      "norm_label": ".release_pin()"
+    },
+    {
+      "label": "registry.rs",
+      "file_type": "code",
+      "source_file": "src/gpio/registry.rs",
+      "source_location": "L1",
+      "id": "src_gpio_registry_rs",
+      "community": 2,
+      "norm_label": "registry.rs"
+    },
+    {
+      "label": "PinSpec",
+      "file_type": "code",
+      "source_file": "src/gpio/registry.rs",
+      "source_location": "L5",
+      "id": "gpio_registry_pinspec",
+      "community": 2,
+      "norm_label": "pinspec"
+    },
+    {
+      "label": "lookup()",
+      "file_type": "code",
+      "source_file": "src/gpio/registry.rs",
+      "source_location": "L42",
+      "id": "gpio_registry_lookup",
+      "community": 2,
+      "norm_label": "lookup()"
+    },
+    {
+      "label": "mod.rs",
+      "file_type": "code",
+      "source_file": "src/llm/mod.rs",
+      "source_location": "L1",
+      "id": "src_llm_mod_rs",
+      "community": 23,
+      "norm_label": "mod.rs"
+    },
+    {
+      "label": "LlmClient",
+      "file_type": "code",
+      "source_file": "src/llm/mod.rs",
+      "source_location": "L10",
+      "id": "llm_mod_llmclient",
+      "community": 23,
+      "norm_label": "llmclient"
+    },
+    {
+      "label": "deepseek.rs",
+      "file_type": "code",
+      "source_file": "src/llm/deepseek.rs",
+      "source_location": "L1",
+      "id": "src_llm_deepseek_rs",
+      "community": 18,
+      "norm_label": "deepseek.rs"
+    },
+    {
+      "label": "DeepSeekClient",
+      "file_type": "code",
+      "source_file": "src/llm/deepseek.rs",
+      "source_location": "L65",
+      "id": "llm_deepseek_deepseekclient",
+      "community": 18,
+      "norm_label": "deepseekclient"
+    },
+    {
+      "label": ".new()",
+      "file_type": "code",
+      "source_file": "src/llm/deepseek.rs",
+      "source_location": "L70",
+      "id": "llm_deepseek_deepseekclient_new",
+      "community": 18,
+      "norm_label": ".new()"
+    },
+    {
+      "label": ".complete()",
+      "file_type": "code",
+      "source_file": "src/llm/deepseek.rs",
+      "source_location": "L78",
+      "id": "llm_deepseek_deepseekclient_complete",
+      "community": 18,
+      "norm_label": ".complete()"
+    },
+    {
+      "label": "plan.rs",
+      "file_type": "code",
+      "source_file": "src/llm/plan.rs",
+      "source_location": "L1",
+      "id": "src_llm_plan_rs",
+      "community": 19,
+      "norm_label": "plan.rs"
+    },
+    {
+      "label": "Instruction",
+      "file_type": "code",
+      "source_file": "src/llm/plan.rs",
+      "source_location": "L11",
+      "id": "llm_plan_instruction",
+      "community": 19,
+      "norm_label": "instruction"
+    },
+    {
+      "label": "Project",
+      "file_type": "code",
+      "source_file": "src/llm/plan.rs",
+      "source_location": "L46",
+      "id": "llm_plan_project",
+      "community": 19,
+      "norm_label": "project"
+    },
+    {
+      "label": ".new()",
+      "file_type": "code",
+      "source_file": "src/llm/plan.rs",
+      "source_location": "L60",
+      "id": "llm_plan_project_new",
+      "community": 19,
+      "norm_label": ".new()"
+    },
+    {
+      "label": "document.md",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L1",
+      "id": "document_md",
+      "community": 0,
+      "norm_label": "document.md"
+    },
+    {
+      "label": "ESP32-Agent",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L1",
+      "id": "esp32_agent_document_esp32_agent",
+      "community": 0,
+      "norm_label": "esp32-agent"
+    },
+    {
+      "label": "AI-Driven GPIO Controller for ESP32",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L2",
+      "id": "esp32_agent_document_ai_driven_gpio_controller_for_esp32",
+      "community": 0,
+      "norm_label": "ai-driven gpio controller for esp32"
+    },
+    {
+      "label": "Powered by Rust \u00b7 Telegram Bot \u00b7 DeepSeek LLM",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L3",
+      "id": "esp32_agent_document_powered_by_rust_telegram_bot_deepseek_llm",
+      "community": 0,
+      "norm_label": "powered by rust \u00b7 telegram bot \u00b7 deepseek llm"
+    },
+    {
+      "label": "Table of Contents",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L10",
+      "id": "esp32_agent_document_table_of_contents",
+      "community": 0,
+      "norm_label": "table of contents"
+    },
+    {
+      "label": "1. Project Overview",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L32",
+      "id": "esp32_agent_document_1_project_overview",
+      "community": 0,
+      "norm_label": "1. project overview"
+    },
+    {
+      "label": "1.1 Design Pillars",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L38",
+      "id": "esp32_agent_document_1_1_design_pillars",
+      "community": 0,
+      "norm_label": "1.1 design pillars"
+    },
+    {
+      "label": "1.2 High-Level Architecture",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L46",
+      "id": "esp32_agent_document_1_2_high_level_architecture",
+      "community": 0,
+      "norm_label": "1.2 high-level architecture"
+    },
+    {
+      "label": "2. System Requirements",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L60",
+      "id": "esp32_agent_document_2_system_requirements",
+      "community": 0,
+      "norm_label": "2. system requirements"
+    },
+    {
+      "label": "2.1 Hardware",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L62",
+      "id": "esp32_agent_document_2_1_hardware",
+      "community": 0,
+      "norm_label": "2.1 hardware"
+    },
+    {
+      "label": "2.2 Software & Toolchain",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L73",
+      "id": "esp32_agent_document_2_2_software_toolchain",
+      "community": 0,
+      "norm_label": "2.2 software & toolchain"
+    },
+    {
+      "label": "2.3 External Services",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L86",
+      "id": "esp32_agent_document_2_3_external_services",
+      "community": 0,
+      "norm_label": "2.3 external services"
+    },
+    {
+      "label": "3. Repository Layout",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L96",
+      "id": "esp32_agent_document_3_repository_layout",
+      "community": 0,
+      "norm_label": "3. repository layout"
+    },
+    {
+      "label": "code:block1 (esp32-agent/)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L98",
+      "id": "esp32_agent_document_codeblock_1",
+      "community": 0,
+      "norm_label": "code:block1 (esp32-agent/)"
+    },
+    {
+      "label": "4. Toolchain Setup",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L128",
+      "id": "esp32_agent_document_4_toolchain_setup",
+      "community": 8,
+      "norm_label": "4. toolchain setup"
+    },
+    {
+      "label": "4.1 Install Rust with Espressif Support",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L130",
+      "id": "esp32_agent_document_4_1_install_rust_with_espressif_support",
+      "community": 8,
+      "norm_label": "4.1 install rust with espressif support"
+    },
+    {
+      "label": "code:bash (# Install rustup)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L132",
+      "id": "esp32_agent_document_codeblock_2",
+      "community": 8,
+      "norm_label": "code:bash (# install rustup)"
+    },
+    {
+      "label": "4.2 Install ESP-IDF v5.1",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L144",
+      "id": "esp32_agent_document_4_2_install_esp_idf_v5_1",
+      "community": 8,
+      "norm_label": "4.2 install esp-idf v5.1"
+    },
+    {
+      "label": "code:bash (git clone --recursive https://github.com/espressif/esp-idf.g)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L146",
+      "id": "esp32_agent_document_codeblock_3",
+      "community": 8,
+      "norm_label": "code:bash (git clone --recursive https://github.com/espressif/esp-idf.g)"
+    },
+    {
+      "label": "4.3 Install cargo-espflash",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L153",
+      "id": "esp32_agent_document_4_3_install_cargo_espflash",
+      "community": 8,
+      "norm_label": "4.3 install cargo-espflash"
+    },
+    {
+      "label": "code:bash (cargo install cargo-espflash)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L155",
+      "id": "esp32_agent_document_codeblock_4",
+      "community": 8,
+      "norm_label": "code:bash (cargo install cargo-espflash)"
+    },
+    {
+      "label": "4.4 Project Bootstrap",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L162",
+      "id": "esp32_agent_document_4_4_project_bootstrap",
+      "community": 8,
+      "norm_label": "4.4 project bootstrap"
+    },
+    {
+      "label": "code:bash (git clone https://github.com/your-org/esp32-agent.git)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L164",
+      "id": "esp32_agent_document_codeblock_5",
+      "community": 8,
+      "norm_label": "code:bash (git clone https://github.com/your-org/esp32-agent.git)"
+    },
+    {
+      "label": "5. Configuration",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L175",
+      "id": "esp32_agent_document_5_configuration",
+      "community": 17,
+      "norm_label": "5. configuration"
+    },
+    {
+      "label": "5.1 Cargo.toml \u2014 Key Dependencies",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L177",
+      "id": "esp32_agent_document_5_1_cargo_toml_key_dependencies",
+      "community": 17,
+      "norm_label": "5.1 cargo.toml \u2014 key dependencies"
+    },
+    {
+      "label": "code:toml ([package])",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L179",
+      "id": "esp32_agent_document_codeblock_6",
+      "community": 17,
+      "norm_label": "code:toml ([package])"
+    },
+    {
+      "label": "5.2 .cargo/config.toml",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L203",
+      "id": "esp32_agent_document_5_2_cargo_config_toml",
+      "community": 17,
+      "norm_label": "5.2 .cargo/config.toml"
+    },
+    {
+      "label": "code:toml ([build])",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L205",
+      "id": "esp32_agent_document_codeblock_7",
+      "community": 17,
+      "norm_label": "code:toml ([build])"
+    },
+    {
+      "label": "6. Core Implementation",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L220",
+      "id": "esp32_agent_document_6_core_implementation",
+      "community": 3,
+      "norm_label": "6. core implementation"
+    },
+    {
+      "label": "6.1 main.rs \u2014 Entry Point & Task Orchestration",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L222",
+      "id": "esp32_agent_document_6_1_main_rs_entry_point_task_orchestration",
+      "community": 3,
+      "norm_label": "6.1 main.rs \u2014 entry point & task orchestration"
+    },
+    {
+      "label": "code:rust (// src/main.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L230",
+      "id": "esp32_agent_document_codeblock_8",
+      "community": 3,
+      "norm_label": "code:rust (// src/main.rs)"
+    },
+    {
+      "label": "6.2 config.rs \u2014 NVS-Backed Secure Storage",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L272",
+      "id": "esp32_agent_document_6_2_config_rs_nvs_backed_secure_storage",
+      "community": 3,
+      "norm_label": "6.2 config.rs \u2014 nvs-backed secure storage"
+    },
+    {
+      "label": "code:rust (// src/config.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L276",
+      "id": "esp32_agent_document_codeblock_9",
+      "community": 3,
+      "norm_label": "code:rust (// src/config.rs)"
+    },
+    {
+      "label": "6.3 wifi.rs \u2014 Wi-Fi Station Driver",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L311",
+      "id": "esp32_agent_document_6_3_wifi_rs_wi_fi_station_driver",
+      "community": 3,
+      "norm_label": "6.3 wifi.rs \u2014 wi-fi station driver"
+    },
+    {
+      "label": "code:rust (// src/wifi.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L313",
+      "id": "esp32_agent_document_codeblock_10",
+      "community": 3,
+      "norm_label": "code:rust (// src/wifi.rs)"
+    },
+    {
+      "label": "6.4 telegram/api.rs \u2014 Telegram Bot Polling",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L346",
+      "id": "esp32_agent_document_6_4_telegram_api_rs_telegram_bot_polling",
+      "community": 3,
+      "norm_label": "6.4 telegram/api.rs \u2014 telegram bot polling"
+    },
+    {
+      "label": "code:rust (// src/telegram/api.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L350",
+      "id": "esp32_agent_document_codeblock_11",
+      "community": 3,
+      "norm_label": "code:rust (// src/telegram/api.rs)"
+    },
+    {
+      "label": "6.5 llm/deepseek.rs \u2014 LLM API Client",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L394",
+      "id": "esp32_agent_document_6_5_llm_deepseek_rs_llm_api_client",
+      "community": 3,
+      "norm_label": "6.5 llm/deepseek.rs \u2014 llm api client"
+    },
+    {
+      "label": "code:rust (// src/llm/deepseek.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L398",
+      "id": "esp32_agent_document_codeblock_12",
+      "community": 3,
+      "norm_label": "code:rust (// src/llm/deepseek.rs)"
+    },
+    {
+      "label": "6.6 llm/plan.rs \u2014 Structured Plan Types",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L453",
+      "id": "esp32_agent_document_6_6_llm_plan_rs_structured_plan_types",
+      "community": 3,
+      "norm_label": "6.6 llm/plan.rs \u2014 structured plan types"
+    },
+    {
+      "label": "code:rust (// src/llm/plan.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L455",
+      "id": "esp32_agent_document_codeblock_13",
+      "community": 3,
+      "norm_label": "code:rust (// src/llm/plan.rs)"
+    },
+    {
+      "label": "6.7 gpio/registry.rs \u2014 Pin Capability Table",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L483",
+      "id": "esp32_agent_document_6_7_gpio_registry_rs_pin_capability_table",
+      "community": 3,
+      "norm_label": "6.7 gpio/registry.rs \u2014 pin capability table"
+    },
+    {
+      "label": "code:rust (// src/gpio/registry.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L487",
+      "id": "esp32_agent_document_codeblock_14",
+      "community": 3,
+      "norm_label": "code:rust (// src/gpio/registry.rs)"
+    },
+    {
+      "label": "6.8 gpio/executor.rs \u2014 Plan Execution Engine",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L530",
+      "id": "esp32_agent_document_6_8_gpio_executor_rs_plan_execution_engine",
+      "community": 3,
+      "norm_label": "6.8 gpio/executor.rs \u2014 plan execution engine"
+    },
+    {
+      "label": "code:rust (// src/gpio/executor.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L534",
+      "id": "esp32_agent_document_codeblock_15",
+      "community": 3,
+      "norm_label": "code:rust (// src/gpio/executor.rs)"
+    },
+    {
+      "label": "7. End-to-End Message Flow",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L589",
+      "id": "esp32_agent_document_7_end_to_end_message_flow",
+      "community": 0,
+      "norm_label": "7. end-to-end message flow"
+    },
+    {
+      "label": "code:block16 (User (Telegram))",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L593",
+      "id": "esp32_agent_document_codeblock_16",
+      "community": 0,
+      "norm_label": "code:block16 (user (telegram))"
+    },
+    {
+      "label": "8. Serial Monitor Interface",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L639",
+      "id": "esp32_agent_document_8_serial_monitor_interface",
+      "community": 0,
+      "norm_label": "8. serial monitor interface"
+    },
+    {
+      "label": "8.1 Serial Commands",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L643",
+      "id": "esp32_agent_document_8_1_serial_commands",
+      "community": 0,
+      "norm_label": "8.1 serial commands"
+    },
+    {
+      "label": "8.2 Serial Monitoring",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L656",
+      "id": "esp32_agent_document_8_2_serial_monitoring",
+      "community": 0,
+      "norm_label": "8.2 serial monitoring"
+    },
+    {
+      "label": "code:bash (# Flash and open monitor in one step)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L658",
+      "id": "esp32_agent_document_codeblock_17",
+      "community": 0,
+      "norm_label": "code:bash (# flash and open monitor in one step)"
+    },
+    {
+      "label": "9. Memory Management Strategy",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L677",
+      "id": "esp32_agent_document_9_memory_management_strategy",
+      "community": 12,
+      "norm_label": "9. memory management strategy"
+    },
+    {
+      "label": "9.1 Heap Usage Budget",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L679",
+      "id": "esp32_agent_document_9_1_heap_usage_budget",
+      "community": 12,
+      "norm_label": "9.1 heap usage budget"
+    },
+    {
+      "label": "9.2 Rust Ownership for Pin Safety",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L692",
+      "id": "esp32_agent_document_9_2_rust_ownership_for_pin_safety",
+      "community": 12,
+      "norm_label": "9.2 rust ownership for pin safety"
+    },
+    {
+      "label": "code:rust (// Zero-cost abstraction \u2014 ownership enforced at compile tim)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L696",
+      "id": "esp32_agent_document_codeblock_18",
+      "community": 12,
+      "norm_label": "code:rust (// zero-cost abstraction \u2014 ownership enforced at compile tim)"
+    },
+    {
+      "label": "9.3 Stack-Only Strings with `heapless`",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L721",
+      "id": "esp32_agent_document_9_3_stack_only_strings_with_heapless",
+      "community": 12,
+      "norm_label": "9.3 stack-only strings with `heapless`"
+    },
+    {
+      "label": "code:rust (use heapless::String;)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L725",
+      "id": "esp32_agent_document_codeblock_19",
+      "community": 12,
+      "norm_label": "code:rust (use heapless::string;)"
+    },
+    {
+      "label": "9.4 Static Dispatch over Dynamic Dispatch",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L733",
+      "id": "esp32_agent_document_9_4_static_dispatch_over_dynamic_dispatch",
+      "community": 12,
+      "norm_label": "9.4 static dispatch over dynamic dispatch"
+    },
+    {
+      "label": "code:rust (// Preferred: zero-cost static dispatch)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L737",
+      "id": "esp32_agent_document_codeblock_20",
+      "community": 12,
+      "norm_label": "code:rust (// preferred: zero-cost static dispatch)"
+    },
+    {
+      "label": "10. Security Considerations",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L749",
+      "id": "esp32_agent_document_10_security_considerations",
+      "community": 9,
+      "norm_label": "10. security considerations"
+    },
+    {
+      "label": "10.1 Telegram User Whitelist",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L751",
+      "id": "esp32_agent_document_10_1_telegram_user_whitelist",
+      "community": 9,
+      "norm_label": "10.1 telegram user whitelist"
+    },
+    {
+      "label": "code:rust (if update.message.from.id != cfg.allowed_user_id {)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L755",
+      "id": "esp32_agent_document_codeblock_21",
+      "community": 9,
+      "norm_label": "code:rust (if update.message.from.id != cfg.allowed_user_id {)"
+    },
+    {
+      "label": "10.2 TLS Certificate Validation",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L762",
+      "id": "esp32_agent_document_10_2_tls_certificate_validation",
+      "community": 9,
+      "norm_label": "10.2 tls certificate validation"
+    },
+    {
+      "label": "code:rust (EspHttpConnection::new(&HttpConfig {)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L766",
+      "id": "esp32_agent_document_codeblock_22",
+      "community": 9,
+      "norm_label": "code:rust (esphttpconnection::new(&httpconfig {)"
+    },
+    {
+      "label": "10.3 LLM Plan Sandboxing",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L774",
+      "id": "esp32_agent_document_10_3_llm_plan_sandboxing",
+      "community": 9,
+      "norm_label": "10.3 llm plan sandboxing"
+    },
+    {
+      "label": "10.4 API Key Storage",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L784",
+      "id": "esp32_agent_document_10_4_api_key_storage",
+      "community": 9,
+      "norm_label": "10.4 api key storage"
+    },
+    {
+      "label": "10.5 Rate Limiting",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L788",
+      "id": "esp32_agent_document_10_5_rate_limiting",
+      "community": 9,
+      "norm_label": "10.5 rate limiting"
+    },
+    {
+      "label": "code:rust (const MAX_REQUESTS_PER_MINUTE: u8 = 10;)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L792",
+      "id": "esp32_agent_document_codeblock_23",
+      "community": 9,
+      "norm_label": "code:rust (const max_requests_per_minute: u8 = 10;)"
+    },
+    {
+      "label": "11. Usage Examples",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L804",
+      "id": "esp32_agent_document_11_usage_examples",
+      "community": 14,
+      "norm_label": "11. usage examples"
+    },
+    {
+      "label": "11.1 Telegram Command Examples",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L806",
+      "id": "esp32_agent_document_11_1_telegram_command_examples",
+      "community": 14,
+      "norm_label": "11.1 telegram command examples"
+    },
+    {
+      "label": "11.2 Example LLM JSON Plan",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L820",
+      "id": "esp32_agent_document_11_2_example_llm_json_plan",
+      "community": 14,
+      "norm_label": "11.2 example llm json plan"
+    },
+    {
+      "label": "code:json (// User: \"Blink the blue LED on GPIO 2 three times, 200ms ea)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L822",
+      "id": "esp32_agent_document_codeblock_24",
+      "community": 14,
+      "norm_label": "code:json (// user: \"blink the blue led on gpio 2 three times, 200ms ea)"
+    },
+    {
+      "label": "11.3 Multi-Pin Example",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L838",
+      "id": "esp32_agent_document_11_3_multi_pin_example",
+      "community": 14,
+      "norm_label": "11.3 multi-pin example"
+    },
+    {
+      "label": "code:json (// User: \"Turn on the fan (GPIO 26) and set the indicator LE)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L840",
+      "id": "esp32_agent_document_codeblock_25",
+      "community": 14,
+      "norm_label": "code:json (// user: \"turn on the fan (gpio 26) and set the indicator le)"
+    },
+    {
+      "label": "12. Build, Flash & Monitor",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L853",
+      "id": "esp32_agent_document_12_build_flash_monitor",
+      "community": 10,
+      "norm_label": "12. build, flash & monitor"
+    },
+    {
+      "label": "12.1 First-Time Credential Provisioning",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L855",
+      "id": "esp32_agent_document_12_1_first_time_credential_provisioning",
+      "community": 10,
+      "norm_label": "12.1 first-time credential provisioning"
+    },
+    {
+      "label": "code:bash (# Provision via Serial CLI after first flash)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L857",
+      "id": "esp32_agent_document_codeblock_26",
+      "community": 10,
+      "norm_label": "code:bash (# provision via serial cli after first flash)"
+    },
+    {
+      "label": "12.2 Build & Flash",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L867",
+      "id": "esp32_agent_document_12_2_build_flash",
+      "community": 10,
+      "norm_label": "12.2 build & flash"
+    },
+    {
+      "label": "code:bash (# Debug build (faster compile, larger binary))",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L869",
+      "id": "esp32_agent_document_codeblock_27",
+      "community": 10,
+      "norm_label": "code:bash (# debug build (faster compile, larger binary))"
+    },
+    {
+      "label": "12.3 Partition Table",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L885",
+      "id": "esp32_agent_document_12_3_partition_table",
+      "community": 10,
+      "norm_label": "12.3 partition table"
+    },
+    {
+      "label": "code:csv (# partitions.csv)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L887",
+      "id": "esp32_agent_document_codeblock_28",
+      "community": 10,
+      "norm_label": "code:csv (# partitions.csv)"
+    },
+    {
+      "label": "12.4 OTA Updates (Optional)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L898",
+      "id": "esp32_agent_document_12_4_ota_updates_optional",
+      "community": 10,
+      "norm_label": "12.4 ota updates (optional)"
+    },
+    {
+      "label": "code:rust (// Handle /ota command in telegram/mod.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L902",
+      "id": "esp32_agent_document_codeblock_29",
+      "community": 10,
+      "norm_label": "code:rust (// handle /ota command in telegram/mod.rs)"
+    },
+    {
+      "label": "13. Extending ESP32-Agent",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L912",
+      "id": "esp32_agent_document_13_extending_esp32_agent",
+      "community": 11,
+      "norm_label": "13. extending esp32-agent"
+    },
+    {
+      "label": "13.1 Adding a New LLM Backend",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L914",
+      "id": "esp32_agent_document_13_1_adding_a_new_llm_backend",
+      "community": 11,
+      "norm_label": "13.1 adding a new llm backend"
+    },
+    {
+      "label": "code:rust (// src/llm/mod.rs)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L918",
+      "id": "esp32_agent_document_codeblock_30",
+      "community": 11,
+      "norm_label": "code:rust (// src/llm/mod.rs)"
+    },
+    {
+      "label": "13.2 Adding MQTT Transport",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L930",
+      "id": "esp32_agent_document_13_2_adding_mqtt_transport",
+      "community": 11,
+      "norm_label": "13.2 adding mqtt transport"
+    },
+    {
+      "label": "code:rust (// Pseudo-code for MQTT integration)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L934",
+      "id": "esp32_agent_document_codeblock_31",
+      "community": 11,
+      "norm_label": "code:rust (// pseudo-code for mqtt integration)"
+    },
+    {
+      "label": "13.3 Adding I2C / SPI Peripherals",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L946",
+      "id": "esp32_agent_document_13_3_adding_i2c_spi_peripherals",
+      "community": 11,
+      "norm_label": "13.3 adding i2c / spi peripherals"
+    },
+    {
+      "label": "code:rust (// Append to SYSTEM_PROMPT dynamically at runtime)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L950",
+      "id": "esp32_agent_document_codeblock_32",
+      "community": 11,
+      "norm_label": "code:rust (// append to system_prompt dynamically at runtime)"
+    },
+    {
+      "label": "13.4 Adding Voice Commands",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L958",
+      "id": "esp32_agent_document_13_4_adding_voice_commands",
+      "community": 11,
+      "norm_label": "13.4 adding voice commands"
+    },
+    {
+      "label": "code:block33 (Voice note (OGG) \u2192 Whisper transcription \u2192 text \u2192 DeepSeek \u2192)",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L962",
+      "id": "esp32_agent_document_codeblock_33",
+      "community": 11,
+      "norm_label": "code:block33 (voice note (ogg) \u2192 whisper transcription \u2192 text \u2192 deepseek \u2192)"
+    },
+    {
+      "label": "14. Troubleshooting",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L968",
+      "id": "esp32_agent_document_14_troubleshooting",
+      "community": 0,
+      "norm_label": "14. troubleshooting"
+    },
+    {
+      "label": "15. Roadmap",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L985",
+      "id": "esp32_agent_document_15_roadmap",
+      "community": 0,
+      "norm_label": "15. roadmap"
+    },
+    {
+      "label": "16. Glossary",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L998",
+      "id": "esp32_agent_document_16_glossary",
+      "community": 0,
+      "norm_label": "16. glossary"
+    },
+    {
+      "label": "17. References & Further Reading",
+      "file_type": "document",
+      "source_file": "document.md",
+      "source_location": "L1017",
+      "id": "esp32_agent_document_17_references_further_reading",
+      "community": 0,
+      "norm_label": "17. references & further reading"
+    },
+    {
+      "label": "PLAN.md",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L1",
+      "id": "plan_md",
+      "community": 5,
+      "norm_label": "plan.md"
+    },
+    {
+      "label": "ESP32-Agent Implementation Plan \u2014 RTOS-Centric",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L1",
+      "id": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "community": 5,
+      "norm_label": "esp32-agent implementation plan \u2014 rtos-centric"
+    },
+    {
+      "label": "Derived from document.md v1.0 \u00b7 FreeRTOS-First Architecture",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L2",
+      "id": "esp32_agent_plan_derived_from_document_md_v1_0_freertos_first_architecture",
+      "community": 5,
+      "norm_label": "derived from document.md v1.0 \u00b7 freertos-first architecture"
+    },
+    {
+      "label": "Design Philosophy",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L6",
+      "id": "esp32_agent_plan_design_philosophy",
+      "community": 5,
+      "norm_label": "design philosophy"
+    },
+    {
+      "label": "Phase 1: Toolchain & RTOS-Aware Project Bootstrap",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L12",
+      "id": "esp32_agent_plan_phase_1_toolchain_rtos_aware_project_bootstrap",
+      "community": 5,
+      "norm_label": "phase 1: toolchain & rtos-aware project bootstrap"
+    },
+    {
+      "label": "Phase 2: RTOS Task Foundation \u2014 Config, Wi-Fi, Serial",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L33",
+      "id": "esp32_agent_plan_phase_2_rtos_task_foundation_config_wi_fi_serial",
+      "community": 5,
+      "norm_label": "phase 2: rtos task foundation \u2014 config, wi-fi, serial"
+    },
+    {
+      "label": "Phase 3: GPIO Subsystem \u2014 Queue-Driven Executor",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L53",
+      "id": "esp32_agent_plan_phase_3_gpio_subsystem_queue_driven_executor",
+      "community": 5,
+      "norm_label": "phase 3: gpio subsystem \u2014 queue-driven executor"
+    },
+    {
+      "label": "Phase 4: LLM Integration \u2014 Synchronous HTTP in Dedicated Task",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L73",
+      "id": "esp32_agent_plan_phase_4_llm_integration_synchronous_http_in_dedicated_task",
+      "community": 5,
+      "norm_label": "phase 4: llm integration \u2014 synchronous http in dedicated task"
+    },
+    {
+      "label": "Phase 5: Telegram Bot Transport \u2014 Polling Task + Rate Limiter",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L92",
+      "id": "esp32_agent_plan_phase_5_telegram_bot_transport_polling_task_rate_limiter",
+      "community": 5,
+      "norm_label": "phase 5: telegram bot transport \u2014 polling task + rate limiter"
+    },
+    {
+      "label": "Phase 6: RTOS Synchronization, Safety & Hardening",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L111",
+      "id": "esp32_agent_plan_phase_6_rtos_synchronization_safety_hardening",
+      "community": 5,
+      "norm_label": "phase 6: rtos synchronization, safety & hardening"
+    },
+    {
+      "label": "Phase 7: Validation & Release",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L133",
+      "id": "esp32_agent_plan_phase_7_validation_release",
+      "community": 5,
+      "norm_label": "phase 7: validation & release"
+    },
+    {
+      "label": "RTOS Task Map (Reference)",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L150",
+      "id": "esp32_agent_plan_rtos_task_map_reference",
+      "community": 5,
+      "norm_label": "rtos task map (reference)"
+    },
+    {
+      "label": "Inter-Task Communication Map",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L164",
+      "id": "esp32_agent_plan_inter_task_communication_map",
+      "community": 5,
+      "norm_label": "inter-task communication map"
+    },
+    {
+      "label": "Risk Mitigation",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L175",
+      "id": "esp32_agent_plan_risk_mitigation",
+      "community": 5,
+      "norm_label": "risk mitigation"
+    },
+    {
+      "label": "Post-v1.0 Roadmap (Backlog)",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L189",
+      "id": "esp32_agent_plan_post_v1_0_roadmap_backlog",
+      "community": 5,
+      "norm_label": "post-v1.0 roadmap (backlog)"
+    },
+    {
+      "label": "USER_GUIDE.md",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L1",
+      "id": "user_guide_md",
+      "community": 1,
+      "norm_label": "user_guide.md"
+    },
+    {
+      "label": "ESP32-Agent User Guide",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L1",
+      "id": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "community": 1,
+      "norm_label": "esp32-agent user guide"
+    },
+    {
+      "label": "AI-Driven GPIO Controller for ESP32",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L2",
+      "id": "esp32_agent_user_guide_ai_driven_gpio_controller_for_esp32",
+      "community": 1,
+      "norm_label": "ai-driven gpio controller for esp32"
+    },
+    {
+      "label": "What is ESP32-Agent?",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L6",
+      "id": "esp32_agent_user_guide_what_is_esp32_agent",
+      "community": 1,
+      "norm_label": "what is esp32-agent?"
+    },
+    {
+      "label": "Quick Start",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L14",
+      "id": "esp32_agent_user_guide_quick_start",
+      "community": 1,
+      "norm_label": "quick start"
+    },
+    {
+      "label": "1. Flash the Firmware",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L16",
+      "id": "esp32_agent_user_guide_1_flash_the_firmware",
+      "community": 1,
+      "norm_label": "1. flash the firmware"
+    },
+    {
+      "label": "code:bash (# Connect your ESP32 via USB, then:)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L18",
+      "id": "esp32_agent_user_guide_codeblock_1",
+      "community": 1,
+      "norm_label": "code:bash (# connect your esp32 via usb, then:)"
+    },
+    {
+      "label": "2. First Boot \u2014 Provisioning Mode",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L29",
+      "id": "esp32_agent_user_guide_2_first_boot_provisioning_mode",
+      "community": 1,
+      "norm_label": "2. first boot \u2014 provisioning mode"
+    },
+    {
+      "label": "code:block2 (=================================================)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L33",
+      "id": "esp32_agent_user_guide_codeblock_2",
+      "community": 1,
+      "norm_label": "code:block2 (=================================================)"
+    },
+    {
+      "label": "code:block3 (> config set wifi_ssid    MyHomeWiFi)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L45",
+      "id": "esp32_agent_user_guide_codeblock_3",
+      "community": 1,
+      "norm_label": "code:block3 (> config set wifi_ssid    myhomewifi)"
+    },
+    {
+      "label": "Serial Monitor Interface (USB)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L71",
+      "id": "esp32_agent_user_guide_serial_monitor_interface_usb",
+      "community": 15,
+      "norm_label": "serial monitor interface (usb)"
+    },
+    {
+      "label": "Local Commands (never touch hardware directly)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L75",
+      "id": "esp32_agent_user_guide_local_commands_never_touch_hardware_directly",
+      "community": 15,
+      "norm_label": "local commands (never touch hardware directly)"
+    },
+    {
+      "label": "Natural-Language Commands (goes to DeepSeek AI)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L84",
+      "id": "esp32_agent_user_guide_natural_language_commands_goes_to_deepseek_ai",
+      "community": 15,
+      "norm_label": "natural-language commands (goes to deepseek ai)"
+    },
+    {
+      "label": "code:block4 (> Turn on GPIO 13)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L88",
+      "id": "esp32_agent_user_guide_codeblock_4",
+      "community": 15,
+      "norm_label": "code:block4 (> turn on gpio 13)"
+    },
+    {
+      "label": "Serial Examples",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L108",
+      "id": "esp32_agent_user_guide_serial_examples",
+      "community": 15,
+      "norm_label": "serial examples"
+    },
+    {
+      "label": "code:block5 (> gpio list)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L110",
+      "id": "esp32_agent_user_guide_codeblock_5",
+      "community": 15,
+      "norm_label": "code:block5 (> gpio list)"
+    },
+    {
+      "label": "Telegram Bot Interface",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L136",
+      "id": "esp32_agent_user_guide_telegram_bot_interface",
+      "community": 1,
+      "norm_label": "telegram bot interface"
+    },
+    {
+      "label": "Security",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L140",
+      "id": "esp32_agent_user_guide_security",
+      "community": 1,
+      "norm_label": "security"
+    },
+    {
+      "label": "Telegram Examples",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L146",
+      "id": "esp32_agent_user_guide_telegram_examples",
+      "community": 1,
+      "norm_label": "telegram examples"
+    },
+    {
+      "label": "GPIO Capability Reference",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L160",
+      "id": "esp32_agent_user_guide_gpio_capability_reference",
+      "community": 1,
+      "norm_label": "gpio capability reference"
+    },
+    {
+      "label": "How a Command Flows Through the System",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L181",
+      "id": "esp32_agent_user_guide_how_a_command_flows_through_the_system",
+      "community": 1,
+      "norm_label": "how a command flows through the system"
+    },
+    {
+      "label": "code:block6 (You (Telegram / Serial))",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L183",
+      "id": "esp32_agent_user_guide_codeblock_6",
+      "community": 1,
+      "norm_label": "code:block6 (you (telegram / serial))"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L212",
+      "id": "esp32_agent_user_guide_troubleshooting",
+      "community": 1,
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "Re-Provisioning (Change Wi-Fi, Token, or Key)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L227",
+      "id": "esp32_agent_user_guide_re_provisioning_change_wi_fi_token_or_key",
+      "community": 1,
+      "norm_label": "re-provisioning (change wi-fi, token, or key)"
+    },
+    {
+      "label": "code:block7 (> config set wifi_ssid NewNetwork)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L231",
+      "id": "esp32_agent_user_guide_codeblock_7",
+      "community": 1,
+      "norm_label": "code:block7 (> config set wifi_ssid newnetwork)"
+    },
+    {
+      "label": "Flash & Monitor Cheat Sheet",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L243",
+      "id": "esp32_agent_user_guide_flash_monitor_cheat_sheet",
+      "community": 1,
+      "norm_label": "flash & monitor cheat sheet"
+    },
+    {
+      "label": "code:bash (# Build + flash + monitor in one step)",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L245",
+      "id": "esp32_agent_user_guide_codeblock_8",
+      "community": 1,
+      "norm_label": "code:bash (# build + flash + monitor in one step)"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L262",
+      "id": "esp32_agent_user_guide_license",
+      "community": 1,
+      "norm_label": "license"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 4,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "ESP32-Agent",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "esp32_agent_readme_esp32_agent",
+      "community": 4,
+      "norm_label": "esp32-agent"
+    },
+    {
+      "label": "What It Does",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "id": "esp32_agent_readme_what_it_does",
+      "community": 4,
+      "norm_label": "what it does"
+    },
+    {
+      "label": "Quick Start",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "id": "esp32_agent_readme_quick_start",
+      "community": 4,
+      "norm_label": "quick start"
+    },
+    {
+      "label": "1. Flash",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "id": "esp32_agent_readme_1_flash",
+      "community": 4,
+      "norm_label": "1. flash"
+    },
+    {
+      "label": "code:bash (cargo espflash flash --release --port /dev/ttyUSB0 --monitor)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "id": "esp32_agent_readme_codeblock_1",
+      "community": 4,
+      "norm_label": "code:bash (cargo espflash flash --release --port /dev/ttyusb0 --monitor)"
+    },
+    {
+      "label": "2. Provision (first boot only)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "id": "esp32_agent_readme_2_provision_first_boot_only",
+      "community": 4,
+      "norm_label": "2. provision (first boot only)"
+    },
+    {
+      "label": "code:block2 (> config set wifi_ssid  MyHomeWiFi)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "id": "esp32_agent_readme_codeblock_2",
+      "community": 4,
+      "norm_label": "code:block2 (> config set wifi_ssid  myhomewifi)"
+    },
+    {
+      "label": "3. Control",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "id": "esp32_agent_readme_3_control",
+      "community": 4,
+      "norm_label": "3. control"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L57",
+      "id": "esp32_agent_readme_architecture",
+      "community": 4,
+      "norm_label": "architecture"
+    },
+    {
+      "label": "code:block3 (User (Telegram / Serial))",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "id": "esp32_agent_readme_codeblock_3",
+      "community": 4,
+      "norm_label": "code:block3 (user (telegram / serial))"
+    },
+    {
+      "label": "VM Instruction Set",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "id": "esp32_agent_readme_vm_instruction_set",
+      "community": 4,
+      "norm_label": "vm instruction set"
+    },
+    {
+      "label": "Hardware",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "id": "esp32_agent_readme_hardware",
+      "community": 4,
+      "norm_label": "hardware"
+    },
+    {
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L106",
+      "id": "esp32_agent_readme_tech_stack",
+      "community": 4,
+      "norm_label": "tech stack"
+    },
+    {
+      "label": "Repo Layout",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L118",
+      "id": "esp32_agent_readme_repo_layout",
+      "community": 4,
+      "norm_label": "repo layout"
+    },
+    {
+      "label": "code:block4 (\u251c\u2500\u2500 src/)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L120",
+      "id": "esp32_agent_readme_codeblock_4",
+      "community": 4,
+      "norm_label": "code:block4 (\u251c\u2500\u2500 src/)"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L143",
+      "id": "esp32_agent_readme_license",
+      "community": 4,
+      "norm_label": "license"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build.rs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "build_rs",
+      "target": "esp32_agent_build_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/wifi.rs",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_wifi_rs",
+      "target": "src_wifi_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main.rs",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "src_main_main",
+      "target": "src_wifi_connect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/serial.rs",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_serial_rs",
+      "target": "src_serial_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/serial.rs",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "src_serial_rs",
+      "target": "src_serial_print_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/serial.rs",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "src_serial_rs",
+      "target": "src_serial_handle_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/serial.rs",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "src_serial_rs",
+      "target": "src_serial_parse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/serial.rs",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_serial_run",
+      "target": "src_serial_print_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/serial.rs",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "src_serial_run",
+      "target": "src_serial_handle_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/serial.rs",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "src_serial_handle_line",
+      "target": "src_serial_parse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/serial.rs",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "src_serial_handle_line",
+      "target": "src_config_config_set"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.rs",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_main_rs",
+      "target": "src_main_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main.rs",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_main_main",
+      "target": "gpio_mod_gpioregistry_from_peripherals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_program_rs",
+      "target": "src_program_vm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "src_program_rs",
+      "target": "src_program_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_program_vm",
+      "target": "src_program_vm_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_program_vm",
+      "target": "src_program_vm_get_var",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "src_program_vm",
+      "target": "src_program_vm_set_var",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "src_program_vm",
+      "target": "src_program_vm_find_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "src_program_vm",
+      "target": "src_program_vm_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "src_program_vm",
+      "target": "src_program_vm_step",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "src_program_run",
+      "target": "src_program_vm_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "src_program_vm_step",
+      "target": "src_program_vm_get_var",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "src_program_vm_step",
+      "target": "src_program_vm_set_var",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "src_program_vm_step",
+      "target": "src_program_vm_find_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/program.rs",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_program_vm_run",
+      "target": "src_program_vm_step",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/rtos.rs",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_rtos_rs",
+      "target": "src_rtos_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config.rs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_config_rs",
+      "target": "src_config_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config.rs",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "src_config_rs",
+      "target": "src_config_nvs_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config.rs",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "src_config_rs",
+      "target": "src_config_nvs_i64",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config.rs",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_config_config",
+      "target": "src_config_config_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config.rs",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_config_config",
+      "target": "src_config_config_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config.rs",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_config_config_load",
+      "target": "src_config_nvs_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config.rs",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_config_config_load",
+      "target": "src_config_nvs_i64",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/mod.rs",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_telegram_mod_rs",
+      "target": "telegram_mod_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/mod.rs",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "src_telegram_mod_rs",
+      "target": "telegram_mod_requests_consume",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/mod.rs",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "telegram_mod_run",
+      "target": "telegram_mod_requests_consume",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_telegram_api_rs",
+      "target": "telegram_api_telegramapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "telegram_api_telegramapi",
+      "target": "telegram_api_telegramapi_new",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "telegram_api_telegramapi",
+      "target": "telegram_api_telegramapi_get_updates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "telegram_api_telegramapi",
+      "target": "telegram_api_telegramapi_send_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "telegram_api_telegramapi_get_updates",
+      "target": "telegram_api_telegramapi_new",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/api.rs",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "telegram_api_telegramapi_send_message",
+      "target": "telegram_api_telegramapi_new",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_telegram_types_rs",
+      "target": "telegram_types_update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_telegram_types_rs",
+      "target": "telegram_types_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_telegram_types_rs",
+      "target": "telegram_types_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_telegram_types_rs",
+      "target": "telegram_types_chat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_telegram_types_rs",
+      "target": "telegram_types_getupdatesresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/telegram/types.rs",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "src_telegram_types_rs",
+      "target": "telegram_types_apiresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_gpio_mod_rs",
+      "target": "gpio_mod_gpioregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_from_peripherals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_claim_output",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_claim_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_ensure_input_34",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_ensure_input_35",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_ensure_input_36",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L274",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_ensure_input_39",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L283",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_read_adc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L312",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_config_pwm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L373",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_set_pwm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L408",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_release_pwm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L424",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry",
+      "target": "gpio_mod_gpioregistry_release_pin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry_claim_output",
+      "target": "gpio_mod_gpioregistry_release_pwm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry_claim_input",
+      "target": "gpio_mod_gpioregistry_release_pwm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry_claim_input",
+      "target": "gpio_mod_gpioregistry_ensure_input_34",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L246",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry_claim_input",
+      "target": "gpio_mod_gpioregistry_ensure_input_35",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L247",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry_claim_input",
+      "target": "gpio_mod_gpioregistry_ensure_input_36",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L248",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry_claim_input",
+      "target": "gpio_mod_gpioregistry_ensure_input_39",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L328",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry_config_pwm",
+      "target": "gpio_mod_gpioregistry_release_pin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/gpio/mod.rs",
+      "source_location": "L322",
+      "weight": 1.0,
+      "source": "gpio_mod_gpioregistry_config_pwm",
+      "target": "gpio_registry_lookup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/registry.rs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_gpio_registry_rs",
+      "target": "gpio_registry_pinspec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpio/registry.rs",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "src_gpio_registry_rs",
+      "target": "gpio_registry_lookup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/llm/mod.rs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_llm_mod_rs",
+      "target": "llm_mod_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/llm/deepseek.rs",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "src_llm_deepseek_rs",
+      "target": "llm_deepseek_deepseekclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/llm/deepseek.rs",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "llm_deepseek_deepseekclient",
+      "target": "llm_deepseek_deepseekclient_new",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/llm/deepseek.rs",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "llm_deepseek_deepseekclient",
+      "target": "llm_deepseek_deepseekclient_complete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/llm/deepseek.rs",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "llm_deepseek_deepseekclient_complete",
+      "target": "llm_deepseek_deepseekclient_new",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/llm/plan.rs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_llm_plan_rs",
+      "target": "llm_plan_instruction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/llm/plan.rs",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_llm_plan_rs",
+      "target": "llm_plan_project",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/llm/plan.rs",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "llm_plan_project",
+      "target": "llm_plan_project_new",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "document_md",
+      "target": "esp32_agent_document_esp32_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_ai_driven_gpio_controller_for_esp32",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_table_of_contents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_1_project_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_2_system_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_3_repository_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_4_toolchain_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_5_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L220",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_6_core_implementation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L589",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_7_end_to_end_message_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L639",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_8_serial_monitor_interface",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L677",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_9_memory_management_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L749",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_10_security_considerations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L804",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_11_usage_examples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L853",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_12_build_flash_monitor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L912",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_13_extending_esp32_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L968",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_14_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L985",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_15_roadmap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L998",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_16_glossary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L1017",
+      "weight": 1.0,
+      "source": "esp32_agent_document_esp32_agent",
+      "target": "esp32_agent_document_17_references_further_reading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "esp32_agent_document_ai_driven_gpio_controller_for_esp32",
+      "target": "esp32_agent_document_powered_by_rust_telegram_bot_deepseek_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "esp32_agent_document_1_project_overview",
+      "target": "esp32_agent_document_1_1_design_pillars",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "esp32_agent_document_1_project_overview",
+      "target": "esp32_agent_document_1_2_high_level_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "esp32_agent_document_2_system_requirements",
+      "target": "esp32_agent_document_2_1_hardware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "esp32_agent_document_2_system_requirements",
+      "target": "esp32_agent_document_2_2_software_toolchain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "esp32_agent_document_2_system_requirements",
+      "target": "esp32_agent_document_2_3_external_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "esp32_agent_document_3_repository_layout",
+      "target": "esp32_agent_document_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "esp32_agent_document_4_toolchain_setup",
+      "target": "esp32_agent_document_4_1_install_rust_with_espressif_support",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "esp32_agent_document_4_toolchain_setup",
+      "target": "esp32_agent_document_4_2_install_esp_idf_v5_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "esp32_agent_document_4_toolchain_setup",
+      "target": "esp32_agent_document_4_3_install_cargo_espflash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "esp32_agent_document_4_toolchain_setup",
+      "target": "esp32_agent_document_4_4_project_bootstrap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "esp32_agent_document_4_1_install_rust_with_espressif_support",
+      "target": "esp32_agent_document_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "esp32_agent_document_4_2_install_esp_idf_v5_1",
+      "target": "esp32_agent_document_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "esp32_agent_document_4_3_install_cargo_espflash",
+      "target": "esp32_agent_document_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "esp32_agent_document_4_4_project_bootstrap",
+      "target": "esp32_agent_document_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "esp32_agent_document_5_configuration",
+      "target": "esp32_agent_document_5_1_cargo_toml_key_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "esp32_agent_document_5_configuration",
+      "target": "esp32_agent_document_5_2_cargo_config_toml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "esp32_agent_document_5_1_cargo_toml_key_dependencies",
+      "target": "esp32_agent_document_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "esp32_agent_document_5_2_cargo_config_toml",
+      "target": "esp32_agent_document_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_core_implementation",
+      "target": "esp32_agent_document_6_1_main_rs_entry_point_task_orchestration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L272",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_core_implementation",
+      "target": "esp32_agent_document_6_2_config_rs_nvs_backed_secure_storage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L311",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_core_implementation",
+      "target": "esp32_agent_document_6_3_wifi_rs_wi_fi_station_driver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L346",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_core_implementation",
+      "target": "esp32_agent_document_6_4_telegram_api_rs_telegram_bot_polling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L394",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_core_implementation",
+      "target": "esp32_agent_document_6_5_llm_deepseek_rs_llm_api_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L453",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_core_implementation",
+      "target": "esp32_agent_document_6_6_llm_plan_rs_structured_plan_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L483",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_core_implementation",
+      "target": "esp32_agent_document_6_7_gpio_registry_rs_pin_capability_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L530",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_core_implementation",
+      "target": "esp32_agent_document_6_8_gpio_executor_rs_plan_execution_engine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_1_main_rs_entry_point_task_orchestration",
+      "target": "esp32_agent_document_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L276",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_2_config_rs_nvs_backed_secure_storage",
+      "target": "esp32_agent_document_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L313",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_3_wifi_rs_wi_fi_station_driver",
+      "target": "esp32_agent_document_codeblock_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L350",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_4_telegram_api_rs_telegram_bot_polling",
+      "target": "esp32_agent_document_codeblock_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L398",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_5_llm_deepseek_rs_llm_api_client",
+      "target": "esp32_agent_document_codeblock_12",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L455",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_6_llm_plan_rs_structured_plan_types",
+      "target": "esp32_agent_document_codeblock_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L487",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_7_gpio_registry_rs_pin_capability_table",
+      "target": "esp32_agent_document_codeblock_14",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L534",
+      "weight": 1.0,
+      "source": "esp32_agent_document_6_8_gpio_executor_rs_plan_execution_engine",
+      "target": "esp32_agent_document_codeblock_15",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L593",
+      "weight": 1.0,
+      "source": "esp32_agent_document_7_end_to_end_message_flow",
+      "target": "esp32_agent_document_codeblock_16",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L643",
+      "weight": 1.0,
+      "source": "esp32_agent_document_8_serial_monitor_interface",
+      "target": "esp32_agent_document_8_1_serial_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L656",
+      "weight": 1.0,
+      "source": "esp32_agent_document_8_serial_monitor_interface",
+      "target": "esp32_agent_document_8_2_serial_monitoring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L658",
+      "weight": 1.0,
+      "source": "esp32_agent_document_8_2_serial_monitoring",
+      "target": "esp32_agent_document_codeblock_17",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L679",
+      "weight": 1.0,
+      "source": "esp32_agent_document_9_memory_management_strategy",
+      "target": "esp32_agent_document_9_1_heap_usage_budget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L692",
+      "weight": 1.0,
+      "source": "esp32_agent_document_9_memory_management_strategy",
+      "target": "esp32_agent_document_9_2_rust_ownership_for_pin_safety",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L721",
+      "weight": 1.0,
+      "source": "esp32_agent_document_9_memory_management_strategy",
+      "target": "esp32_agent_document_9_3_stack_only_strings_with_heapless",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L733",
+      "weight": 1.0,
+      "source": "esp32_agent_document_9_memory_management_strategy",
+      "target": "esp32_agent_document_9_4_static_dispatch_over_dynamic_dispatch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L696",
+      "weight": 1.0,
+      "source": "esp32_agent_document_9_2_rust_ownership_for_pin_safety",
+      "target": "esp32_agent_document_codeblock_18",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L725",
+      "weight": 1.0,
+      "source": "esp32_agent_document_9_3_stack_only_strings_with_heapless",
+      "target": "esp32_agent_document_codeblock_19",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L737",
+      "weight": 1.0,
+      "source": "esp32_agent_document_9_4_static_dispatch_over_dynamic_dispatch",
+      "target": "esp32_agent_document_codeblock_20",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L751",
+      "weight": 1.0,
+      "source": "esp32_agent_document_10_security_considerations",
+      "target": "esp32_agent_document_10_1_telegram_user_whitelist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L762",
+      "weight": 1.0,
+      "source": "esp32_agent_document_10_security_considerations",
+      "target": "esp32_agent_document_10_2_tls_certificate_validation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L774",
+      "weight": 1.0,
+      "source": "esp32_agent_document_10_security_considerations",
+      "target": "esp32_agent_document_10_3_llm_plan_sandboxing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L784",
+      "weight": 1.0,
+      "source": "esp32_agent_document_10_security_considerations",
+      "target": "esp32_agent_document_10_4_api_key_storage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L788",
+      "weight": 1.0,
+      "source": "esp32_agent_document_10_security_considerations",
+      "target": "esp32_agent_document_10_5_rate_limiting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L755",
+      "weight": 1.0,
+      "source": "esp32_agent_document_10_1_telegram_user_whitelist",
+      "target": "esp32_agent_document_codeblock_21",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L766",
+      "weight": 1.0,
+      "source": "esp32_agent_document_10_2_tls_certificate_validation",
+      "target": "esp32_agent_document_codeblock_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L792",
+      "weight": 1.0,
+      "source": "esp32_agent_document_10_5_rate_limiting",
+      "target": "esp32_agent_document_codeblock_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L806",
+      "weight": 1.0,
+      "source": "esp32_agent_document_11_usage_examples",
+      "target": "esp32_agent_document_11_1_telegram_command_examples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L820",
+      "weight": 1.0,
+      "source": "esp32_agent_document_11_usage_examples",
+      "target": "esp32_agent_document_11_2_example_llm_json_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L838",
+      "weight": 1.0,
+      "source": "esp32_agent_document_11_usage_examples",
+      "target": "esp32_agent_document_11_3_multi_pin_example",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L822",
+      "weight": 1.0,
+      "source": "esp32_agent_document_11_2_example_llm_json_plan",
+      "target": "esp32_agent_document_codeblock_24",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L840",
+      "weight": 1.0,
+      "source": "esp32_agent_document_11_3_multi_pin_example",
+      "target": "esp32_agent_document_codeblock_25",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L855",
+      "weight": 1.0,
+      "source": "esp32_agent_document_12_build_flash_monitor",
+      "target": "esp32_agent_document_12_1_first_time_credential_provisioning",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L867",
+      "weight": 1.0,
+      "source": "esp32_agent_document_12_build_flash_monitor",
+      "target": "esp32_agent_document_12_2_build_flash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L885",
+      "weight": 1.0,
+      "source": "esp32_agent_document_12_build_flash_monitor",
+      "target": "esp32_agent_document_12_3_partition_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L898",
+      "weight": 1.0,
+      "source": "esp32_agent_document_12_build_flash_monitor",
+      "target": "esp32_agent_document_12_4_ota_updates_optional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L857",
+      "weight": 1.0,
+      "source": "esp32_agent_document_12_1_first_time_credential_provisioning",
+      "target": "esp32_agent_document_codeblock_26",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L869",
+      "weight": 1.0,
+      "source": "esp32_agent_document_12_2_build_flash",
+      "target": "esp32_agent_document_codeblock_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L887",
+      "weight": 1.0,
+      "source": "esp32_agent_document_12_3_partition_table",
+      "target": "esp32_agent_document_codeblock_28",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L902",
+      "weight": 1.0,
+      "source": "esp32_agent_document_12_4_ota_updates_optional",
+      "target": "esp32_agent_document_codeblock_29",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L914",
+      "weight": 1.0,
+      "source": "esp32_agent_document_13_extending_esp32_agent",
+      "target": "esp32_agent_document_13_1_adding_a_new_llm_backend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L930",
+      "weight": 1.0,
+      "source": "esp32_agent_document_13_extending_esp32_agent",
+      "target": "esp32_agent_document_13_2_adding_mqtt_transport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L946",
+      "weight": 1.0,
+      "source": "esp32_agent_document_13_extending_esp32_agent",
+      "target": "esp32_agent_document_13_3_adding_i2c_spi_peripherals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L958",
+      "weight": 1.0,
+      "source": "esp32_agent_document_13_extending_esp32_agent",
+      "target": "esp32_agent_document_13_4_adding_voice_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L918",
+      "weight": 1.0,
+      "source": "esp32_agent_document_13_1_adding_a_new_llm_backend",
+      "target": "esp32_agent_document_codeblock_30",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L934",
+      "weight": 1.0,
+      "source": "esp32_agent_document_13_2_adding_mqtt_transport",
+      "target": "esp32_agent_document_codeblock_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L950",
+      "weight": 1.0,
+      "source": "esp32_agent_document_13_3_adding_i2c_spi_peripherals",
+      "target": "esp32_agent_document_codeblock_32",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "document.md",
+      "source_location": "L962",
+      "weight": 1.0,
+      "source": "esp32_agent_document_13_4_adding_voice_commands",
+      "target": "esp32_agent_document_codeblock_33",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "plan_md",
+      "target": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_derived_from_document_md_v1_0_freertos_first_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_design_philosophy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_phase_1_toolchain_rtos_aware_project_bootstrap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_phase_2_rtos_task_foundation_config_wi_fi_serial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_phase_3_gpio_subsystem_queue_driven_executor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_phase_4_llm_integration_synchronous_http_in_dedicated_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_phase_5_telegram_bot_transport_polling_task_rate_limiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_phase_6_rtos_synchronization_safety_hardening",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_phase_7_validation_release",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_rtos_task_map_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_inter_task_communication_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_risk_mitigation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "esp32_agent_plan_esp32_agent_implementation_plan_rtos_centric",
+      "target": "esp32_agent_plan_post_v1_0_roadmap_backlog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "user_guide_md",
+      "target": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_ai_driven_gpio_controller_for_esp32",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_what_is_esp32_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_quick_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_serial_monitor_interface_usb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_telegram_bot_interface",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_gpio_capability_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_how_a_command_flows_through_the_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_re_provisioning_change_wi_fi_token_or_key",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L243",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_flash_monitor_cheat_sheet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L262",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_esp32_agent_user_guide",
+      "target": "esp32_agent_user_guide_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_quick_start",
+      "target": "esp32_agent_user_guide_1_flash_the_firmware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_quick_start",
+      "target": "esp32_agent_user_guide_2_first_boot_provisioning_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_1_flash_the_firmware",
+      "target": "esp32_agent_user_guide_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_2_first_boot_provisioning_mode",
+      "target": "esp32_agent_user_guide_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_2_first_boot_provisioning_mode",
+      "target": "esp32_agent_user_guide_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_serial_monitor_interface_usb",
+      "target": "esp32_agent_user_guide_local_commands_never_touch_hardware_directly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_serial_monitor_interface_usb",
+      "target": "esp32_agent_user_guide_natural_language_commands_goes_to_deepseek_ai",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_serial_monitor_interface_usb",
+      "target": "esp32_agent_user_guide_serial_examples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_natural_language_commands_goes_to_deepseek_ai",
+      "target": "esp32_agent_user_guide_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_serial_examples",
+      "target": "esp32_agent_user_guide_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_telegram_bot_interface",
+      "target": "esp32_agent_user_guide_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_telegram_bot_interface",
+      "target": "esp32_agent_user_guide_telegram_examples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_how_a_command_flows_through_the_system",
+      "target": "esp32_agent_user_guide_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L231",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_re_provisioning_change_wi_fi_token_or_key",
+      "target": "esp32_agent_user_guide_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "USER_GUIDE.md",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "esp32_agent_user_guide_flash_monitor_cheat_sheet",
+      "target": "esp32_agent_user_guide_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "esp32_agent_readme_esp32_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_esp32_agent",
+      "target": "esp32_agent_readme_what_it_does",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_esp32_agent",
+      "target": "esp32_agent_readme_quick_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_esp32_agent",
+      "target": "esp32_agent_readme_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_esp32_agent",
+      "target": "esp32_agent_readme_hardware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_esp32_agent",
+      "target": "esp32_agent_readme_tech_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_esp32_agent",
+      "target": "esp32_agent_readme_repo_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_esp32_agent",
+      "target": "esp32_agent_readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_quick_start",
+      "target": "esp32_agent_readme_1_flash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_quick_start",
+      "target": "esp32_agent_readme_2_provision_first_boot_only",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_quick_start",
+      "target": "esp32_agent_readme_3_control",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_1_flash",
+      "target": "esp32_agent_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_2_provision_first_boot_only",
+      "target": "esp32_agent_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_architecture",
+      "target": "esp32_agent_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_architecture",
+      "target": "esp32_agent_readme_vm_instruction_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "esp32_agent_readme_repo_layout",
+      "target": "esp32_agent_readme_codeblock_4",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "6bdf05a2ca64e9163e6e5d89835659b7a5f65d79"
+}

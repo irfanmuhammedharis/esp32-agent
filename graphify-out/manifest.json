@@ -1,0 +1,78 @@
+{
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/build.rs": {
+    "mtime": 1778316717.1492648,
+    "hash": "95fd40b705c271f50f9fa4510a682204"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/wifi.rs": {
+    "mtime": 1778317069.6720738,
+    "hash": "640c2a52ae8ffca25ff51e3f057a4632"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/serial.rs": {
+    "mtime": 1778323743.7261472,
+    "hash": "9abf5b440485739d8bc67ef14064dbc3"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/main.rs": {
+    "mtime": 1778324524.6108255,
+    "hash": "6dca12ba353d42e58a982e53584fb462"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/program.rs": {
+    "mtime": 1778323718.155478,
+    "hash": "a4707e050f5060eab958487599575d26"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/rtos.rs": {
+    "mtime": 1778322310.5550292,
+    "hash": "d12f310f300d64a4e9c7b15085f86b3a"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/config.rs": {
+    "mtime": 1778324524.6125433,
+    "hash": "001485106dd56a1a5fc45a30a3676540"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/telegram/mod.rs": {
+    "mtime": 1778322376.2250364,
+    "hash": "cd11f3aa9ab1a1248fe3403bb308e291"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/telegram/api.rs": {
+    "mtime": 1778318965.7369692,
+    "hash": "f57656260323911da5eeedeced33d098"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/telegram/types.rs": {
+    "mtime": 1778319095.4017372,
+    "hash": "cd98d37e869b8254f75c51b70beb72c7"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/gpio/mod.rs": {
+    "mtime": 1778324039.3922515,
+    "hash": "1c8815fa75950d6d9c924328cb91832f"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/gpio/registry.rs": {
+    "mtime": 1778323679.0997007,
+    "hash": "025250e24a69570ede9e78c06681c75a"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/llm/mod.rs": {
+    "mtime": 1778322214.4916253,
+    "hash": "ded0b559c8ed5a84d70249d9ed770eac"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/llm/deepseek.rs": {
+    "mtime": 1778322295.5980694,
+    "hash": "6da5de7a2b6a82e1f34e536b8b59d43c"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/src/llm/plan.rs": {
+    "mtime": 1778322210.9340768,
+    "hash": "29c8285027bd9895c7cae5f5046f170b"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/document.md": {
+    "mtime": 1778324524.6148832,
+    "hash": "f061c5aa21915e4bf6794722dbd64318"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/PLAN.md": {
+    "mtime": 1778324524.6107671,
+    "hash": "d0cc13242b79e66bc1fd8de91849246e"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/USER_GUIDE.md": {
+    "mtime": 1778324524.6106915,
+    "hash": "ca103224f766741d49585bfab8cc429d"
+  },
+  "/home/irfan/Documents/PlatformIO/Projects/esp32 agent/README.md": {
+    "mtime": 1778324524.6103752,
+    "hash": "f31dfaeb6f8dc3b6912d258004c84bcf"
+  }
+}
