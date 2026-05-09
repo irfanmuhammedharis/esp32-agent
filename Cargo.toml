@@ -1,5 +1,5 @@
 [package]
-name    = "esp32-claw"
+name    = "esp32-agent"
 version = "1.0.0"
 edition = "2021"
 

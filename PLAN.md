@@ -1,4 +1,4 @@
-# ESP32-CLAW Implementation Plan — RTOS-Centric
+# ESP32-Agent Implementation Plan — RTOS-Centric
 ## Derived from document.md v1.0 · FreeRTOS-First Architecture
 
 ---

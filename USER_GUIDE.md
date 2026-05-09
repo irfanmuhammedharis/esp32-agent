@@ -1,11 +1,11 @@
-# ESP32-CLAW User Guide
+# ESP32-Agent User Guide
 ## AI-Driven GPIO Controller for ESP32
 
 ---
 
-## What is ESP32-CLAW?
+## What is ESP32-Agent?
 
-ESP32-CLAW is a **self-programming GPIO controller**. You send it plain English instructions like *"Turn on the red LED on pin 13"* or *"Blink GPIO 2 three times"*, and a DeepSeek AI model running in the cloud converts your intent into precise hardware actions — no coding, no recompilation, no manual pin mapping.
+ESP32-Agent is a **self-programming GPIO controller**. You send it plain English instructions like *"Turn on the red LED on pin 13"* or *"Blink GPIO 2 three times"*, and a DeepSeek AI model running in the cloud converts your intent into precise hardware actions — no coding, no recompilation, no manual pin mapping.
 
 **Key principle:** The LLM has **absolute control**. Every non-local command goes through the AI before touching hardware.
 
@@ -20,7 +20,7 @@ ESP32-CLAW is a **self-programming GPIO controller**. You send it plain English 
 cargo espflash flash --release --port /dev/ttyUSB0 --monitor
 
 # Or if you already built:
-espflash flash ~/esp32-claw-target/xtensa-esp32-espidf/release/esp32-claw \
+espflash flash ~/esp32-agent-target/xtensa-esp32-espidf/release/esp32-agent \
     --port /dev/ttyUSB0 --monitor
 ```
 
@@ -32,7 +32,7 @@ On first boot (or when NVS is empty), the device enters **provisioning mode**:
 
 ```
 =================================================
-ESP32-CLAW v1.0 — AI-Driven GPIO Controller
+ESP32-Agent v1.0 — AI-Driven GPIO Controller
 LLM has ABSOLUTE CONTROL — all HW via DeepSeek
 =================================================
 [MAIN] NVS config missing or incomplete: ...
@@ -247,7 +247,7 @@ OK: ds_key=sk-new-deepseek-key
 cargo espflash flash --release --port /dev/ttyUSB0 --monitor
 
 # Flash existing binary
-espflash flash ~/esp32-claw-target/xtensa-esp32-espidf/release/esp32-claw \
+espflash flash ~/esp32-agent-target/xtensa-esp32-espidf/release/esp32-agent \
     --port /dev/ttyUSB0 --monitor
 
 # Check binary size breakdown
@@ -261,4 +261,4 @@ espflash erase-flash --port /dev/ttyUSB0
 
 ## License
 
-ESP32-CLAW · MIT License · 2026
+ESP32-Agent · MIT License · 2026

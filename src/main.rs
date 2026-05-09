@@ -1,4 +1,4 @@
-//! ESP32-CLAW entry point.
+//! ESP32-Agent entry point.
 
 extern crate esp_idf_sys;
 

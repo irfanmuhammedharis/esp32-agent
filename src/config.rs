@@ -4,7 +4,7 @@ use esp_idf_svc::nvs::{EspDefaultNvsPartition, EspNvs, NvsDefault};
 use heapless::String;
 use log::info;
 
-const NVS_NAMESPACE: &str = "claw_cfg";
+const NVS_NAMESPACE: &str = "agent_cfg";
 
 /// Runtime configuration loaded once at boot.
 pub struct Config {

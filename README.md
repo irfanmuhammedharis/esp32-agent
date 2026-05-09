@@ -1,4 +1,4 @@
-# ESP32-CLAW
+# ESP32-Agent
 
 **AI-Driven GPIO Controller for ESP32 — Powered by Rust · Telegram · DeepSeek LLM**
 
@@ -8,7 +8,7 @@
 
 ## What It Does
 
-ESP32-CLAW is a self-programming firmware for the ESP32. You describe what you want in natural language — *"Blink the red LED on GPIO 13"* or *"Read soil moisture on GPIO 34 and turn on the pump if it's dry"* — and the onboard VM executes real hardware loops using:
+ESP32-Agent is a self-programming firmware for the ESP32. You describe what you want in natural language — *"Blink the red LED on GPIO 13"* or *"Read soil moisture on GPIO 34 and turn on the pump if it's dry"* — and the onboard VM executes real hardware loops using:
 
 - **Digital output** (`set_high` / `set_low`)
 - **Digital input** (`read_digital`)

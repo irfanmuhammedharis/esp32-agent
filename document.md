@@ -1,4 +1,4 @@
-# ESP32-CLAW
+# ESP32-Agent
 ## AI-Driven GPIO Controller for ESP32
 ### Powered by Rust · Telegram Bot · DeepSeek LLM
 
@@ -21,7 +21,7 @@
 10. [Security Considerations](#10-security-considerations)
 11. [Usage Examples](#11-usage-examples)
 12. [Build, Flash & Monitor](#12-build-flash--monitor)
-13. [Extending ESP32-CLAW](#13-extending-esp32-claw)
+13. [Extending ESP32-Agent](#13-extending-esp32-agent)
 14. [Troubleshooting](#14-troubleshooting)
 15. [Roadmap](#15-roadmap)
 16. [Glossary](#16-glossary)
@@ -31,9 +31,9 @@
 
 ## 1. Project Overview
 
-ESP32-CLAW is an open-source, AI-driven GPIO control framework for the ESP32 microcontroller, implemented entirely in Rust. Inspired by the OpenClaw project, it enables natural-language task delegation via Telegram — the user sends a human-readable instruction, and the system autonomously reasons over pin capabilities using a DeepSeek LLM, generates the required control logic, and executes it in real-time.
+ESP32-Agent is an open-source, AI-driven GPIO control framework for the ESP32 microcontroller, implemented entirely in Rust. Inspired by the OpenClaw project, it enables natural-language task delegation via Telegram — the user sends a human-readable instruction, and the system autonomously reasons over pin capabilities using a DeepSeek LLM, generates the required control logic, and executes it in real-time.
 
-Unlike conventional firmware that requires hard-coded pin mappings, ESP32-CLAW is **self-programming**: every instruction is semantically parsed, the LLM maps intent to physical GPIO, and the resulting runtime action is streamed back to the user over Telegram or USB Serial — with zero manual recompilation.
+Unlike conventional firmware that requires hard-coded pin mappings, ESP32-Agent is **self-programming**: every instruction is semantically parsed, the LLM maps intent to physical GPIO, and the resulting runtime action is streamed back to the user over Telegram or USB Serial — with zero manual recompilation.
 
 ### 1.1 Design Pillars
 
@@ -96,7 +96,7 @@ The system is composed of five cooperating layers:
 ## 3. Repository Layout
 
 ```
-esp32-claw/
+esp32-agent/
 ├── Cargo.toml                  # workspace root
 ├── sdkconfig.defaults          # ESP-IDF menuconfig baseline
 ├── build.rs                    # esp-idf-sys binding generation
@@ -162,8 +162,8 @@ cargo espflash --version
 ### 4.4 Project Bootstrap
 
 ```bash
-git clone https://github.com/your-org/esp32-claw.git
-cd esp32-claw
+git clone https://github.com/your-org/esp32-agent.git
+cd esp32-agent
 
 # Copy env template and fill credentials
 cp .env.example .env
@@ -178,7 +178,7 @@ cp .env.example .env
 
 ```toml
 [package]
-name    = "esp32-claw"
+name    = "esp32-agent"
 version = "1.0.0"
 edition = "2021"
 
@@ -288,7 +288,7 @@ pub struct Config {
 
 impl Config {
     pub fn load(nvs_part: &EspDefaultNvsPartition) -> anyhow::Result<Self> {
-        let nvs = EspNvs::new(nvs_part.clone(), "claw_cfg", true)?;
+        let nvs = EspNvs::new(nvs_part.clone(), "agent_cfg", true)?;
         Ok(Self {
             wifi_ssid:       nvs_str(&nvs, "wifi_ssid")?,
             wifi_pass:       nvs_str(&nvs, "wifi_pass")?,
@@ -663,7 +663,7 @@ cargo espflash flash --monitor
 espflash monitor /dev/ttyUSB0
 
 # Example serial session
-ESP32-CLAW ready. Type a task or 'help'.
+ESP32-Agent ready. Type a task or 'help'.
 > Turn on the red LED on pin 13
 [LLM] Sending to DeepSeek...
 [PLAN] {"actions":[{"pin":13,"mode":"output","value":1}],
@@ -909,7 +909,7 @@ if text.starts_with("/ota ") {
 
 ---
 
-## 13. Extending ESP32-CLAW
+## 13. Extending ESP32-Agent
 
 ### 13.1 Adding a New LLM Backend
 
@@ -929,7 +929,7 @@ pub trait LlmClient {
 
 ### 13.2 Adding MQTT Transport
 
-Replace or supplement the Telegram polling loop with an MQTT subscriber using `esp-mqtt`. Subscribe to a topic (`esp32/claw/command`), process messages through the same LLM pipeline, and publish results to `esp32/claw/response`.
+Replace or supplement the Telegram polling loop with an MQTT subscriber using `esp-mqtt`. Subscribe to a topic (`esp32/agent/command`), process messages through the same LLM pipeline, and publish results to `esp32/agent/response`.
 
 ```rust
 // Pseudo-code for MQTT integration
@@ -937,10 +937,10 @@ let mut mqtt = EspMqttClient::new(broker_url, &mqtt_cfg, move |event| {
     if let MqttEvent::Received(msg) = event {
         let plan = llm_client.complete(msg.payload_str());
         executor::apply(&plan);
-        mqtt.publish("esp32/claw/response", &plan.description);
+        mqtt.publish("esp32/agent/response", &plan.description);
     }
 })?;
-mqtt.subscribe("esp32/claw/command", QoS::AtLeastOnce)?;
+mqtt.subscribe("esp32/agent/command", QoS::AtLeastOnce)?;
 ```
 
 ### 13.3 Adding I2C / SPI Peripherals
@@ -1022,11 +1022,11 @@ Voice note (OGG) → Whisper transcription → text → DeepSeek → PinPlan →
 - **DeepSeek API Documentation** — https://platform.deepseek.com/api-docs
 - **Telegram Bot API** — https://core.telegram.org/bots/api
 - **heapless crate** — https://docs.rs/heapless
-- **OpenClaw project (inspiration)** — https://github.com/openclaw/openclaw
+- **OpenClaw project (inspiration)** — https://github.com/openagent/openclaw
 - **ESP32 Technical Reference Manual** — https://www.espressif.com/en/support/documents/technical-documents
 - **cargo-espflash** — https://github.com/esp-rs/espflash
 - **espup (toolchain installer)** — https://github.com/esp-rs/espup
 
 ---
 
-*ESP32-CLAW · hexcodeplus· 2026 · MIT License*
+*ESP32-Agent · hexcodeplus· 2026 · MIT License*
